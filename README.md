@@ -1,2 +1,3 @@
 # studypython
-study python 
+the study python Project
+python 学习笔记
