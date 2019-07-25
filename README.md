@@ -30,9 +30,8 @@ study python Project
 
 
 ----------
-![此处输入图片的描述][3]
+
+![小喵咪][1]
 
 
-  [1]: https://github.com/windrunner0/studypython
-  [2]: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564069196507&di=fd8459e8cfeb4997f4c00f3d93496578&imgtype=0&src=http://ku.90sjimg.com/element_origin_min_pic/00/86/44/4056eb5f135855d.jpg
-  [3]: https://github.com/windrunner0/studypython/blob/master/4165f919jw1eez6e7oakwj20c80c8dgr.jpg
+  [1]: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564070304764&di=e22dc9dd75b538306a6371a6c6e39559&imgtype=jpg&src=http://img0.imgtn.bdimg.com/it/u=3542326865,3709215973&fm=214&gp=0.jpg
