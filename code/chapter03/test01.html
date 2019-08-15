@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>JavaScript--实例</title>
+
+    </head>
+    <body>
+        <h3 id="hid">JavaScript实例--表单事件</h3>
+        <form action="my.html" name="myform" method="post" onsubmit="return doSubmit()">
+            账号：<input type="text" name="uname"/> 8-16位的有效字符<br/><br/>
+            密码：<input type="password" name="upass"/> 6-18位<br/><br/>
+            邮箱：<input type="text" name="email"/> <br/><br/>
+            <input type="submit" value="提交"/>
+        </form>
+      <script type="text/javascript">
+         //表单提交事件处理
+         function doSubmit(){
+            //验证账号
+            var name = document.myform.uname.value;
+            if(name.match(/^\w{8,16}$/)==null){
+                alert("账号必须为8-16的有效字符！");
+                return false;
+            }
+
+            //验证密码
+            var pass = document.myform.upass.value;
+            if(pass.match(/^.{6,18}$/)==null){
+                alert("密码必须为6-18位！");
+                return false;
+            }
+
+            //验证邮箱
+            var email = document.myform.email.value;
+            if(email.match(/^\w+@\w+(\.\w+){1,2}$/)==null){
+                alert("请输入正确的Email地址！");
+                return false;
+            }
+            return true;
+         }
+
+      </script>
+    </body>
+</html>
